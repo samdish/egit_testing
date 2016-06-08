@@ -10,7 +10,10 @@
 //#include<wildcardhead.c>
 
 //#include<reversehead.c>
+#include <stdio.h>
+#include <stdbool.h>
 #include "functions.h"
+
 
 //#define R 5;
 //#define C 5;

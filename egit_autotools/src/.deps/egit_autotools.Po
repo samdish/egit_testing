@@ -1,4 +1,4 @@
-egit_autotools.o: egit_autotools.c functions.h /usr/include/stdio.h \
+egit_autotools.o: egit_autotools.c /usr/include/stdio.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
@@ -13,9 +13,7 @@ egit_autotools.o: egit_autotools.c functions.h /usr/include/stdio.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h \
  /usr/include/i386-linux-gnu/bits/stdio.h \
  /usr/include/i386-linux-gnu/bits/stdio2.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/stdbool.h
-
-functions.h:
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdbool.h functions.h
 
 /usr/include/stdio.h:
 
@@ -54,3 +52,5 @@ functions.h:
 /usr/include/i386-linux-gnu/bits/stdio2.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.6/include/stdbool.h:
+
+functions.h:
